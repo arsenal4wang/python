@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1345445633">
+    <data-source source="LOCAL" name="MySQL - wang@localhost" uuid="ee9fe7c3-d7e8-460e-839f-9cd696d5a774">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/wang</jdbc-url>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="yearIsDateType" value="false" />
+      </driver-properties>
+      <libraries>
+        <library>
+          <url>file://D:/TDDOWNLOAD/tools/common_jar/mysql-connector-java-5.1.7/5.1.22/mysql-connector-java-5.1.22-bin.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
