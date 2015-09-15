@@ -37,8 +37,6 @@ def insertIntoDB(allReaord,type):
            db.commit();
    db.close()
 
-
-
 def insetDB():
     five ={'39':'英超','51':'意甲','49':'德甲','54':'西甲','68':'法甲'}
     keys=['39','51','49','54','68']
