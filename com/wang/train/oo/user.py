@@ -22,3 +22,4 @@ print getattr(user, 'age')
 del user
 
 
+
