@@ -10,8 +10,7 @@ def getCusor():
 def show_insert(vars,*args):
     db = getDBConn()
     cursor =db.cursor()
-    sql = 'insert into user VALUES ("%s","%s")' % \
-          (vars,args[0])
+    sql = 'insert into user VALUES ("%s","%s")' % (vars,args[0])
     try:
         cursor.execute(sql)
         db.commit()
@@ -43,7 +42,6 @@ def show_update(vars,*args):
         db.rollback()
     db.close()
 
-
 def show_select(name):
     cursor= getCusor()
     sql = "select * from user WHERE name= '%s' " % (name)
@@ -51,11 +49,6 @@ def show_select(name):
     data = cursor.fetchall()
     for i in data:
         print i[0] + "  "+ i[1]
-
-
-
-
-
 
 show_select("wang")
 print 'insert a user'
