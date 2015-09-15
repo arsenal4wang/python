@@ -20,3 +20,5 @@ user = User('wang','password')
 user.age = 100
 print getattr(user,'age')
 del user
+
+
